@@ -1053,6 +1053,17 @@ MonoBehaviour:
   playerOptions:
   - Obrigado... eu acho...
   - Pode deixar!
+  npcOptions2:
+  - "Cleitin agora se tu perceber liberou um caminho pra vc seguir pro pr\xF3ximo
+    andar, n\xE3o vou ocupar mais o seu tempo ..."
+  - ... toma uma bolsa de tinta pra te ajudar na jornada e lembra de bater essas
+    pernas quando for nadar cara.
+  - "Sei la cara pareceu uma quest de jogo e me senti mal por n\xE3o te dar nada....
+    era oque eu tinha no bolso, at\xE9 mais!"
+  playerOptions2:
+  - "Ah ... obrigado e at\xE9 mais....."
+  - Pra que uma bolsa de tinta?
+  - Despedir-se
   npcSpritePic: {fileID: 21300000, guid: c7eb778d720a58a4e9af7c5b2a2786df, type: 3}
   playerSpritePic: {fileID: 21300000, guid: beb6138e16ddf1946ba49ad39312338b, type: 3}
 --- !u!114 &594054442
@@ -1939,7 +1950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPanel: {fileID: 7795810}
-  scene: {fileID: 102900000, guid: 79847a264b9c9db40a295c5c1ab3435b, type: 3}
+  scene: {fileID: 102900000, guid: e6fcf8ec2785ae64cbc70cc173b51e69, type: 3}
   interactKey: 101
 --- !u!4 &997081123
 Transform:
@@ -2740,7 +2751,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.1, y: 0.1}
   m_Direction: 0
 --- !u!4 &1443533017
 Transform:
@@ -2967,6 +2978,9 @@ MonoBehaviour:
   interactGlass: {fileID: 2008542871}
   npc: {fileID: 594054439}
   thrashTook: 0
+  dialManager: {fileID: 1236782697}
+  tkThrash: {fileID: 594054441}
+  changeLevel: {fileID: 997081121}
 --- !u!4 &1547104327
 Transform:
   m_ObjectHideFlags: 0
@@ -3177,7 +3191,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.1, y: 0.1}
   m_Direction: 0
 --- !u!4 &1685560930
 Transform:
@@ -3187,7 +3201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685560928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.78, y: -1.2496241, z: -14.459635}
+  m_LocalPosition: {x: -3.8, y: -1.2496241, z: -14.459635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1681639681}
@@ -3635,7 +3649,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.1, y: 0.1}
   m_Direction: 0
 --- !u!4 &1979619211
 Transform:
@@ -3645,7 +3659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979619209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.67, y: -1.2496241, z: -14.459635}
+  m_LocalPosition: {x: -0.68, y: -1.2496241, z: -14.459635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1266481102}
@@ -3789,7 +3803,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.1, y: 0.1}
   m_Direction: 0
 --- !u!4 &2008542873
 Transform:

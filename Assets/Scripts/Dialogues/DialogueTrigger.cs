@@ -40,10 +40,9 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(npcBehavior.GetTalked());
         if (collision.gameObject.tag == "Player" && !npcBehavior.GetTalked())
         {
-            Debug.Log("Conversa habilitada");
+            Debug.Log("Ativar conversa");
             Dialogue.SetDialogueEnabled(true);
             Dialogue.SetCurrentNpc(this.gameObject);
             interactText.SetActive(true);

@@ -60,6 +60,7 @@ public class NpcBehavior : MonoBehaviour
             }
             else
             {
+                check.SetActive(false);
                 interrogation.SetActive(true);
             }
         }
