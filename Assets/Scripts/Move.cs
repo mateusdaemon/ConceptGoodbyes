@@ -11,11 +11,13 @@ public class Move : MonoBehaviour
     private Rigidbody2D rb;
     private float movementInputX = 0;
     private Vector3 direction;
+    private Animator playerAnim;
 
     void Start()
     {
         sprRend = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        playerAnim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,14 @@ public class Move : MonoBehaviour
         }
 
         movementInputX = Input.GetAxisRaw("Horizontal");
+
+        if (movementInputX != 0)
+        {
+            playerAnim.SetBool("isWalking", true);
+        } else
+        {
+            playerAnim.SetBool("isWalking", false);
+        }
 
         if (movementInputX < 0 && orientToDirection)
         {
