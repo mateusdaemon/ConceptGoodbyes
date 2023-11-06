@@ -5,30 +5,27 @@
 ## Tópicos
 🔹 [Descrição do projeto](https://github.com/mateusdaemon/ConceptGoodbyes#descri%C3%A7%C3%A3o-do-projeto) 
 
-🔹 Funcionalidades
+🔹 [Funcionalidades](https://github.com/mateusdaemon/ConceptGoodbyes#funcionalidades-%EF%B8%8F)
 
-🔹 Distribuição
+🔹 [Distribuição](https://github.com/mateusdaemon/ConceptGoodbyes#distribui%C3%A7%C3%A3o)
 
-🔹 Pré-requisitos
+🔹 [Pré-requisitos](https://github.com/mateusdaemon/ConceptGoodbyes#pr%C3%A9-requisitos-%EF%B8%8F)
 
-🔹 Como rodar a aplicação
+🔹 [Como rodar a aplicação](https://github.com/mateusdaemon/ConceptGoodbyes#como-rodar-a-aplica%C3%A7%C3%A3o)
 
-🔹 Testes realizados
+🔹 [Testes realizados](https://github.com/mateusdaemon/ConceptGoodbyes#testes-realizados)
 
-🔹 Banco de Dados
+🔹 [Banco de Dados](https://github.com/mateusdaemon/ConceptGoodbyes#banco-de-dados-%EF%B8%8F)
 
-🔹 Linguagens, dependências e libs utilizadas
+🔹 [Linguagens, dependências e libs utilizadas](https://github.com/mateusdaemon/ConceptGoodbyes#linguagens-dependencias-e-libs-utilizadas-)
 
-🔹 Novas Recursos
+🔹 [Resolvendo problemas](https://github.com/mateusdaemon/ConceptGoodbyes#resolvendo-problemas)
 
-🔹 Resolvendo problemas
+🔹 [Recursos inseridos](https://github.com/mateusdaemon/ConceptGoodbyes#recursos-de-inseridos-)
 
-🔹 Recursos inseridos 
+🔹 [Desenvolvedores/Contribuintes](https://github.com/mateusdaemon/ConceptGoodbyes#desenvolvedorescontribuintes)
 
-🔹 Desenvolvedores/Contribuintes
-
-🔹 Informações Extras
-
+🔹 [Informações Extras](https://github.com/mateusdaemon/ConceptGoodbyes#copyright-%EF%B8%8F-ano---concept-goodbyes)
 
 ...
 
