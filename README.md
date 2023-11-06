@@ -71,7 +71,7 @@ A demo de Concept Goodbyes não conta com um sistema de "save". Ou seja, uma vez
 - Unity Engine para ediçao do projeto e execução da demo.
 
 ## Resolvendo Problemas 
-Nenhum Issua foi aberto no GitHub. A organização das tarefas está no Trello, disponível em: https://trello.com/b/WVRoL9Py/concept-goodbyes (É necessário permissão para vizualização do Trello, caso deseja entrar em contato com algum dos desenvolvedores).
+Nenhum Issue foi aberto no GitHub. A organização das tarefas está no Trello, disponível em: https://trello.com/b/WVRoL9Py/concept-goodbyes (É necessário permissão para vizualização do Trello, caso deseja entrar em contato com algum dos desenvolvedores).
 
 ## Recursos de inseridos 🧰
 Ainda existem os seguintes trabalhos para serem desenvolvidos.
