@@ -3,7 +3,7 @@
 ## Status do Projeto: ⚠️ Espera 
 
 ## Tópicos
-🔹 Descrição do projeto 
+🔹 [Descrição do projeto](https://github.com/mateusdaemon/ConceptGoodbyes#descri%C3%A7%C3%A3o-do-projeto) 
 
 🔹 Funcionalidades
 
@@ -86,12 +86,12 @@ Ainda existem os seguintes trabalhos para serem desenvolvidos.
 📝 Distribuir o jogo para outros usuários testarem e coletar os feedbacks
 
 ## Desenvolvedores/Contribuintes:
-Fabricio Nogueira Santos - fabrinnsantos@gmail.com - Artista e tester
-Ian do Prado Peichoto - iandoprado9@gmail.com - Roteirista 
-Lucas Alessandro Diniz - lucas.alediniz01@gmail.com - Game designer
-Mateus José Daemon Martins - mateusjdm@gmail.com - Desenvolvedor
-Vitor Francisco da Silveira Ribeiro - tocatexugo@outlook.com - Roteirista
-Daniel Ohata - daniel.ohata@facens.br - Gerente de Projeto
+- Fabricio Nogueira Santos - fabrinnsantos@gmail.com - Artista e tester
+- Ian do Prado Peichoto - iandoprado9@gmail.com - Roteirista 
+- Lucas Alessandro Diniz - lucas.alediniz01@gmail.com - Game designer
+- Mateus José Daemon Martins - mateusjdm@gmail.com - Desenvolvedor
+- Vitor Francisco da Silveira Ribeiro - tocatexugo@outlook.com - Roteirista
+- Daniel Ohata - daniel.ohata@facens.br - Gerente de Projeto
 
 ## Licença
 The MIT License (MIT)
