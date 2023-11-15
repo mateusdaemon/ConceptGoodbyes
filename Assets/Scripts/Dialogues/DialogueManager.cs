@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -47,11 +46,13 @@ public class DialogueManager : MonoBehaviour
 
         if (Dialogue.GetIsDialoguing())
         {
+            Debug.Log("Get all nodes");
 
             dialTree = Dialogue.GetAllNodes();
 
             if (getFirstNode)
             {
+                Debug.Log("Get first nodes");
                 currentNode = dialTree[0];
                 getFirstNode = false;
             }
@@ -114,7 +115,18 @@ public class DialogueManager : MonoBehaviour
                 }
             } else if (Input.GetKeyDown(KeyCode.Alpha2) && playerOpt_2.text != "")
             {
-                currentNode = currentNode.right;
+                if (currentNode.right != null)
+                {
+                    currentNode = currentNode.right;
+                }
+                else
+                {
+                    dialPanel.SetActive(false);
+                    Dialogue.SetIsDialoguing(false);
+                    getFirstNode = true;
+                    SetLastDialNode(currentNode);
+                    return;
+                }
             }
 
         }

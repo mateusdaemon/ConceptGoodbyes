@@ -55,26 +55,31 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DialTree.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
+    <Compile Include="Assets\Scripts\AutoMove.cs" />
+    <Compile Include="Assets\Scripts\Dialogues\TakeTheThrash.cs" />
     <Compile Include="Assets\Scripts\Dialogues\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\Dialogues\DialNode.cs" />
+    <Compile Include="Assets\Scripts\FirstFloorManager.cs" />
     <Compile Include="Assets\Scripts\Dialogues\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\ThrashInteract.cs" />
     <Compile Include="Assets\Scripts\Swim.cs" />
-    <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\Dialogues\JoeGoldhandDial.cs" />
     <Compile Include="Assets\Scripts\InteractChangeLevel.cs" />
-    <Compile Include="Assets\Scripts\DialogueProps.cs" />
     <Compile Include="Assets\Scripts\EnableByTrigger.cs" />
     <Compile Include="Assets\Scripts\Dialogues\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\Dialogues\MohalkDial.cs" />
+    <Compile Include="Assets\Scripts\ThrashManager.cs" />
     <Compile Include="Assets\Scripts\NpcBehavior.cs" />
     <Compile Include="Assets\Scripts\DialogueListener.cs" />
     <Compile Include="Assets\Scripts\Dialogues\CleanOceanDial.cs" />
+    <Compile Include="Assets\Scripts\SpawnPrefab.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\UnderwaterManager.cs" />
-    <Compile Include="Assets\Scripts\Dialogues\TakeTheThrash.cs" />
-    <Compile Include="Assets\Scripts\ThrashManager.cs" />
-    <Compile Include="Assets\Scripts\ThrashInteract.cs" />
+    <Compile Include="Assets\Scripts\DestroyOutOfBounds.cs" />
+    <Compile Include="Assets\Scripts\Dialogues\PixDial.cs" />
+    <Compile Include="Assets\Scripts\Dialogues\BeccaDial.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

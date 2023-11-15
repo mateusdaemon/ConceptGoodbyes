@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class NpcBehavior : MonoBehaviour
 {
-    private bool goodbye;
-    private bool acceptQuest;
+    private bool goodbye = false;
+    private bool acceptQuest = false;
     private bool talked = false;
     public GameObject check;
     public GameObject interrogation;

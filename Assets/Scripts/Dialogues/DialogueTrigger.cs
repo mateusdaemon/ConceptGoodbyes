@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -30,7 +27,7 @@ public class DialogueTrigger : MonoBehaviour
             }
         }
 
-        if (npcBehavior.GetTalked())
+        if (Dialogue.GetCurrentNpc() == this.gameObject && npcBehavior.GetTalked())
         {
             interactText.SetActive(false);
             Dialogue.SetDialogueEnabled(false);
@@ -42,7 +39,6 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && !npcBehavior.GetTalked())
         {
-            Debug.Log("Ativar conversa");
             Dialogue.SetDialogueEnabled(true);
             Dialogue.SetCurrentNpc(this.gameObject);
             interactText.SetActive(true);
