@@ -29,6 +29,8 @@
 
 ...
 
+[High Concept.pdf](https://github.com/mateusdaemon/ConceptGoodbyes/files/13368045/High.Concept.pdf)
+
 ## Descrição do projeto
 “Concept Goodbyes” é uma demonstração (demo) de um jogo digital para computadores que coloca o jogador em um edifício fechado em que está acontecendo uma festa interminável, onde a única possibilidade é caminhar pelos andares e despedir-se de Non-Player Characters (NPCs) a fim de entender a situação em que se encontra e resolver possíveis problemas. A solução desses problemas em algumas fases da demo está ligada aos Objetivos de Desenvolvimento sustentável (ODS) propostos pela Organização das Nações Unidas (ONU).
 
