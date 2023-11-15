@@ -1,92 +1,96 @@
-# Titulo ou Arte do Projeto
+# Concept Goodbyes
 ## Versão: 1.0 
-## Status do Projeto: ✔️ Concluído ⚠️ Espera ❌ Cancelado
+## Status do Projeto: ⚠️ Espera 
 
 ## Tópicos
-🔹 Descrição do projeto 
+🔹 [Descrição do projeto](https://github.com/mateusdaemon/ConceptGoodbyes#descri%C3%A7%C3%A3o-do-projeto) 
 
-🔹 Funcionalidades
+🔹 [Funcionalidades](https://github.com/mateusdaemon/ConceptGoodbyes#funcionalidades-%EF%B8%8F)
 
-🔹 Distribuição
+🔹 [Distribuição](https://github.com/mateusdaemon/ConceptGoodbyes#distribui%C3%A7%C3%A3o)
 
-🔹 Pré-requisitos
+🔹 [Pré-requisitos](https://github.com/mateusdaemon/ConceptGoodbyes#pr%C3%A9-requisitos-%EF%B8%8F)
 
-🔹 Como rodar a aplicação
+🔹 [Como rodar a aplicação](https://github.com/mateusdaemon/ConceptGoodbyes#como-rodar-a-aplica%C3%A7%C3%A3o)
 
-🔹 Testes realizados
+🔹 [Testes realizados](https://github.com/mateusdaemon/ConceptGoodbyes#testes-realizados)
 
-🔹 Banco de Dados
+🔹 [Banco de Dados](https://github.com/mateusdaemon/ConceptGoodbyes#banco-de-dados-%EF%B8%8F)
 
-🔹 Linguagens, dependências e libs utilizadas
+🔹 [Linguagens, dependências e libs utilizadas](https://github.com/mateusdaemon/ConceptGoodbyes#linguagens-dependencias-e-libs-utilizadas-)
 
-🔹 Novas Recursos
+🔹 [Resolvendo problemas](https://github.com/mateusdaemon/ConceptGoodbyes#resolvendo-problemas)
 
-🔹 Resolvendo problemas
+🔹 [Recursos inseridos](https://github.com/mateusdaemon/ConceptGoodbyes#recursos-de-inseridos-)
 
-🔹 Recursos inseridos 
+🔹 [Desenvolvedores/Contribuintes](https://github.com/mateusdaemon/ConceptGoodbyes#desenvolvedorescontribuintes)
 
-🔹 Desenvolvedores/Contribuintes
-
-🔹 Informações Extras
-
+🔹 [Informações Extras](https://github.com/mateusdaemon/ConceptGoodbyes#copyright-%EF%B8%8F-ano---concept-goodbyes)
 
 ...
-
-Insira os tópicos do README em links para facilitar a navegação do leitor
 
 ## Descrição do projeto
-Descrição breve do projeto compondo um paragrafo ou dois.
+“Concept Goodbyes” é uma demonstração (demo) de um jogo digital para computadores que coloca o jogador em um edifício fechado em que está acontecendo uma festa interminável, onde a única possibilidade é caminhar pelos andares e despedir-se de Non-Player Characters (NPCs) a fim de entender a situação em que se encontra e resolver possíveis problemas. A solução desses problemas em algumas fases da demo está ligada aos Objetivos de Desenvolvimento sustentável (ODS) propostos pela Organização das Nações Unidas (ONU).
 
 ## Funcionalidades ⚙️
-✔️ Funcionalidade 1
+✔️ Movimentação: A movimentação ocorre através das teclas A e D ou através das setas <- e ->. 
 
-✔️ Funcionalidade 2
+✔️ Interação com NPCs e objetos: Para interagir com um NPC ou um objeto, o personagem deve estar dentro do seu alcance e pressionar a tecla E para iniciar um diálogo ou coletar um item. Para seguir com a fala do NPC quando ela atingir o limite da caixa de diálogo o jogador deve pressionar a tecla C. Para responder o jogador pressiona as teclas 1 e 2 escolhendo qual resposta deseja dar ao NPC.
 
-✔️ Funcionalidade 3
-
-✔️ Funcionalidade 4
+✔️ Nadar: O jogador pode nadar em uma fase bônuns usando das teclas W, A, S e D
 
 ## Distribuição
-Link para teste da versão disponibilizada.
+Ainda não existe uma versão para ser testada.
 
-## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
+## Pré-requisitos ⚠️
+- Windows 10 ou superior
+- Espaço de armazenamento, memória e chip gráfico ainda não definidos (aguardando término do desenvolvimento).
+  
 Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+- Computador com Windows 10
+- 16GB de memória RAM
+- Chip gráfico GTX 1050 T.I
+- Espaço de armazenamento de 1TB de NVMe
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
+O projeto ainda está em desenvolvimento, é possível executa-lo utilizando Unity. 
+- Descarregar o zip do projeto ou fazer o clone em um repositório local
+- Abrir o Unity Hub e pressionar a opção "Add project from disk"
+- Selectionar o projeto clonado ou descarregado
+- Abrir utilizando unity versão 2020 ou superior.
 
 ## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
+Ainda não foram realizados testes no projeto. Ainda em fase de desenvolvimento.
 
 ## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+A demo de Concept Goodbyes não conta com um sistema de "save". Ou seja, uma vez que o jogo é fechado não é possivel o jogador retornar ao ponto em que estava e deve recomeçar sua jornada. (Ainda em desenvolvimento).
 
 ## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+- C# para o desenvolvimento do código fonte
+- Dependências de libs Unity Engine
+- Unity Engine para ediçao do projeto e execução da demo.
 
 ## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
+Nenhum Issue foi aberto no GitHub. A organização das tarefas está no Trello, disponível em: https://trello.com/b/WVRoL9Py/concept-goodbyes (É necessário permissão para vizualização do Trello, caso deseja entrar em contato com algum dos desenvolvedores).
 
 ## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
+Ainda existem os seguintes trabalhos para serem desenvolvidos.
 
-📝 Tarefa 1
+📝 Finalizar as fases 1, 3 e 4
 
-📝 Tarefa 2
+📝 Realizar os testes e validações de gameplay
 
-📝 Tarefa 3
+📝 Distribuir o jogo para outros usuários testarem e coletar os feedbacks
 
 ## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+- Fabricio Nogueira Santos - fabrinnsantos@gmail.com - Artista e tester
+- Ian do Prado Peichoto - iandoprado9@gmail.com - Roteirista 
+- Lucas Alessandro Diniz - lucas.alediniz01@gmail.com - Game designer
+- Mateus José Daemon Martins - mateusjdm@gmail.com - Desenvolvedor
+- Vitor Francisco da Silveira Ribeiro - tocatexugo@outlook.com - Roteirista
+- Daniel Ohata - daniel.ohata@facens.br - Gerente de Projeto
 
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ Ano - Concept Goodbyes
