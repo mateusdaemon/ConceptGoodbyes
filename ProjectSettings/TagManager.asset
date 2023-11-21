@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - NPC
   - Gun
+  - Bullet
+  - Granade
   layers:
   - Default
   - TransparentFX

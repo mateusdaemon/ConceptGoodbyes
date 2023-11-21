@@ -15,8 +15,8 @@ public class AutoMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        rb.AddForce(direction * speed);
+        rb.AddForce(direction * speed, ForceMode2D.Impulse);
     }
 }

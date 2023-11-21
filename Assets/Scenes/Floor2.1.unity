@@ -7109,7 +7109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5906413029226344648, guid: c03ffa224f0114c45bbdf0595f956e9b, type: 3}
       propertyPath: swimForce
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5906413029226344649, guid: c03ffa224f0114c45bbdf0595f956e9b, type: 3}
       propertyPath: m_Name

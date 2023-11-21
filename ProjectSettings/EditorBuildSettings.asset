@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: a6045eca048401d40922d0ab2e4b98b2
   - enabled: 1
+    path: Assets/Scenes/ComoJogar.unity
+    guid: df9325d3e94b43c46af7c3e58f8b027a
+  - enabled: 1
     path: Assets/Scenes/Floor1.unity
     guid: 946bec2b6a1d63846a679825fe6fe903
   - enabled: 1

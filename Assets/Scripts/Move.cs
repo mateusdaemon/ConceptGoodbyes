@@ -18,7 +18,7 @@ public class Move : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // When dialoguing Player can`t move
         if (Dialogue.GetIsDialoguing())

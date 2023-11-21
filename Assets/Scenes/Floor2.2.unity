@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4230a6aec19d9e439ca72920663dc98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: Putolvo
+  npcName: Fixys
   npcOptions:
   - "Caraca mano vc ate que nada bem!  Talvez te falta mais quatro m\xE3os..."
   - "Mas Cleitin em nome do nosso senhor inomin\xE1vel, joga esse lixo no lugar certo
@@ -2479,7 +2479,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.74
+  m_Intensity: 0.6
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -3349,7 +3349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491508193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7899997, y: -0.012500107, z: -10}
+  m_LocalPosition: {x: 2.7899997, y: -0.012500167, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4019,7 +4019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836436872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.79, y: -0.56, z: -10}
+  m_LocalPosition: {x: 2.79, y: -0.86, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 502401882}
@@ -4043,7 +4043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7773228513315402660, guid: 8af38a3c19a89a14eadbc81c53bc85fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.56
+      value: -0.86
       objectReference: {fileID: 0}
     - target: {fileID: 7773228513315402660, guid: 8af38a3c19a89a14eadbc81c53bc85fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4079,7 +4079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7773228513315402661, guid: 8af38a3c19a89a14eadbc81c53bc85fb, type: 3}
       propertyPath: playerSpeed
-      value: 4
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7773228513315402665, guid: 8af38a3c19a89a14eadbc81c53bc85fb, type: 3}
       propertyPath: m_Name

@@ -46,13 +46,11 @@ public class DialogueManager : MonoBehaviour
 
         if (Dialogue.GetIsDialoguing())
         {
-            Debug.Log("Get all nodes");
 
             dialTree = Dialogue.GetAllNodes();
 
             if (getFirstNode)
             {
-                Debug.Log("Get first nodes");
                 currentNode = dialTree[0];
                 getFirstNode = false;
             }
